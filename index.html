@@ -1,0 +1,459 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="jq/styles/jqx.base.css" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Creator</title>
+</head>
+<body>
+  <div class="container-fluid">
+     <div class="row mainRow">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="height:20%;background-color:#42A5F5">
+          <h2 style="color:white">Online Exam Creator</h2>
+        </div>
+      </div>
+  </div>
+  <div class="container">
+    <!--start of first page-->
+    <section id="front-page">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="border-bottom-style:dashed;border-bottom-color:#42A5F5;margin-top:2%">
+        <h3>Test 1&nbsp;<span style="color:#42A5F5">(For General Knowledge)</span></h3>
+      </div>
+    </div>
+    <div class="row">
+      <form class="form-horizontal" role="form" id="first-form">
+        <div class="form-group" style="margin-top:2%">
+                      <label class="control-label col-sm-3 col-md-4 col-lg-4 col-xs-12">Enter your name</label>
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                         <input type="text" class="form-control" placeholder="enter name here" id="fname" name="fname">
+                      </div>
+                      <div class="col-lg-3 col-sm-3 col-md-3 col-xs-12">
+                                <button type="submit" id="first-btn" style="margin-top:1%">Take Test</button>
+                       </div>
+        </div>
+      </form>
+      </div>
+    </section>
+    <!--end of first section-->
+    <!--start of second section-->
+      <section id="question-section">
+        <div class="row heading-section" >
+         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="border-bottom-style:dashed;border-bottom-color:#42A5F5;margin-top:2%">
+        <p style="font-size:2em" class="r-fname"></p>
+        </div>
+        </div>
+        <div class="row question-row-1">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top:1%">
+            <p style="font-size:1.25em">1).The expansion of the term HTML is ____</p>
+            <div class="toggle">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="one" id="sectiononequestionone" value="a">
+                    <label for="sectiononequestionone">A) Higher Text Markup Language</label></li>
+              </div>
+            </div>
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="one" id="sectiononequestiontwo" value="b">
+                    <label for="sectiononequestiontwo">B) Higher Text Machine Language</label></li>
+              </div>
+            </div>
+
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+                    <li><input type="radio" name="one" id="sectiononequestionthree" value="c">
+                    <label for="sectiononequestionthree">C) Hyper Text Markup Language</label></li>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="one" id="sectiononequestionfour" value="d">
+                    <label for="sectiononequestionfour">D) All of the above</label></li>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <button type="submit" class="first-next">Next</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row question-row-2">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"  style="margin:1%">
+            <p style="font-size:1.25em">2).Full form of BCG is ____</p>
+            <div class="toggle">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="two" id="sectiontwoquestionone" value="a">
+                    <label for="sectiontwoquestionone">A) Bacillus Cholera Germ</label></li>
+              </div>
+            </div>
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="two" id="sectiontwoquestiontwo" value="b">
+                    <label for="sectiontwoquestiontwo">B) Bacillus Calmette Guerin</label></li>
+              </div>
+            </div>
+
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="two" id="sectiontwoquestionthree" value="c">
+                    <label for="sectiontwoquestionthree">C) Bacillus Curative Gene</label></li>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="two" id="sectiontwoquestionfour" value="d">
+                    <label for="sectiontwoquestionfour">D) None of the Above</label></li>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 col-sm-3 col-md-3 col-xs-6">
+                <button type="submit" class="first-previous">Previous</button>
+              </div>
+              <div class="col-lg-3 col-sm-3 col-md-3 col-xs-6">
+                <button type="submit" class="second-next">Next</button>
+              </div>
+              <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       <div class="row question-row-3">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"  style="margin:1%">
+            <p style="font-size:1.25em">3)IRDP stands for ____</p>
+            <div class="toggle">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="three" id="sectionthreequestionone" value="a">
+                    <label for="sectionthreequestionone"> A) International Rural Development Programme</label></li>
+              </div>
+            </div>
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="three" id="sectionthreequestiontwo" value="b">
+                    <label for="sectionthreequestiontwo">B) Integrated Rural Development Programme</label></li>
+              </div>
+            </div>
+
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="three" id="sectionthreequestionthree" value="c">
+                    <label for="sectionthreequestionthree">C) All of the above</label></li>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="three" id="sectionthreequestionfour" value="d">
+                    <label for="sectionthreequestionfour">D) None of the Above</label></li>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 col-sm-3 col-md-3 col-xs-6">
+                <button type="submit" class="second-previous">Previous</button>
+              </div>
+              <div class="col-lg-3 col-sm-3 col-md-3 col-xs-6">
+                <button type="submit" class="third-next">Next</button>
+              </div>
+              <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       <div class="row question-row-4">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"  style="margin:1%">
+            <p style="font-size:1.25em">4)NPC stands for ____</p>
+            <div class="toggle">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="four" id="sectionfourquestionone" value="a">
+                    <label for="sectionfourquestionone"> A) National Productivity Council</label></li>
+              </div>
+            </div>
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="four" id="sectionfourquestiontwo" value="b">
+                    <label for="sectionfourquestiontwo">B) National Political Conference</label></li>
+              </div>
+            </div>
+
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="four" id="sectionfourquestionthree" value="c">
+                    <label for="sectionfourquestionthree">C) National Philosophy Council</label></li>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="four" id="sectionfourquestionfour" value="d">
+                    <label for="sectionfourquestionfour">D) National Productivity Committee</label></li>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 col-sm-3 col-md-3 col-xs-6">
+                <button type="submit" class="third-previous">Previous</button>
+              </div>
+              <div class="col-lg-3 col-sm-3 col-md-3 col-xs-6">
+                <button type="submit" class="fourth-next">Next</button>
+              </div>
+              <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       <div class="row question-row-5">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"  style="margin:1%">
+            <p style="font-size:1.25em">5) NCERT stands for ____</p>
+            <div class="toggle">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="five" id="sectionfivequestionone" value="a">
+                    <label for="sectionfivequestionone"> A) National Council of Educational Research and Training</label></li>
+              </div>
+            </div>
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="five" id="sectionfivequestiontwo" value="b">
+                    <label for="sectionfivequestiontwo">B) National Council of Educational and Rural Training</label></li>
+              </div>
+            </div>
+
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="five" id="sectionfivequestionthree" value="c">
+                    <label for="sectionfivequestionthree">C) National Council of Economic Research and Training</label></li>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="five" id="sectionfivequestionfour" value="d">
+                    <label for="sectionfivequestionfour">D) None of the Above</label></li>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 col-sm-3 col-md-3 col-xs-6">
+                <button type="submit" class="fourth-previous">Previous</button>
+              </div>
+              <div class="col-lg-3 col-sm-3 col-md-3 col-xs-6">
+                <button type="submit" class="fifth-next">Submit Test</button>
+              </div>
+              <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+       <!--end of second section-->
+       <!--start of third section--> 
+       <section class="answer-section">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="background-color:#ECEFF1;margin-top:2%;margin-left:2%">
+             <h4 style="color:#42A5F5">Your Report</h4>
+            <div id="bar-example" style="height:auto;width:300px;">
+              <p class="r-answer"></p>
+          </div>
+        </div>
+        <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top:2%">
+            <p style="font-size:1.25em">1).The expansion of the term HTML is ____</p>
+        <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <input type="radio" name="one" id="answer"disabled>
+                    <label for="answer">A) Higher Text Markup Language</label></li>
+              </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <input type="radio" name="one" id="answer"  disabled>
+              <label for="answer">B) Higher Text Machine Language</label></li>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+              <input type="radio" name="one" id="answer"  disabled>
+              <label for="answer">C) Hyper Text Markup Language</label></li>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <input type="radio" name="one" id="answer"  disabled>
+              <label for="answer">D) All of the above</label></li>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="border-left-style:solid;border-left-color:#00E676;border-left-size:2px;margin-left:2%;margin-top:2%;background-color:#ECEFF1">
+            <p class="r-one">Your answer</p>
+            <p>Correct answer is c</p>
+          </div>
+      </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top:1%">
+            <p style="font-size:1.25em">2).Full form of BCG is ____</p>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="two" id="answer"  disabled>
+                    <label for="answer">A) Bacillus Cholera Germ</label></li>
+              </div>
+            </div>
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="two" id="answer"  disabled>
+                    <label for="answer">B) Bacillus Calmette Guerin</label></li>
+              </div>
+            </div>
+
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="two" id="answer"  disabled>
+                    <label for="answer">C) Bacillus Curative Gene</label></li>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="two" id="answer"  disabled>
+                    <label for="answer">D) None of the Above</label></li>
+              </div>
+            </div>
+          <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="border-left-style:solid;border-left-color:#00E676;border-left-size:2px;margin-left:2%;margin-top:2%;background-color:#ECEFF1">
+            <p class="r-two">Your answer</p>
+            <p>Correct answer is b</p>
+          </div>
+      </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top:1%">
+            <p style="font-size:1.25em">3)IRDP stands for ____</p>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="two" id="answer"  disabled>
+                    <label for="answer">A) International Rural Development Programme</label></li>
+              </div>
+            </div>
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="two" id="answer"  disabled>
+                    <label for="answer">B) Integrated Rural Development Programme</label></li>
+              </div>
+            </div>
+
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="two" id="answer"  disabled>
+                    <label for="answer">C) All of the above</label></li>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="two" id="answer"  disabled>
+                    <label for="answer">D) None of the Above</label></li>
+              </div>
+            </div>
+          <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="border-left-style:solid;border-left-color:#00E676;border-left-size:2px;margin-left:2%;margin-top:2%;background-color:#ECEFF1">
+            <p class="r-three">Your answer</p>
+            <p>Correct answer is b</p>
+          </div>
+      </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top:1%">
+            <p style="font-size:1.25em">4)NPC stands for ____</p>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="two" id="answer"  disabled>
+                    <label for="answer">A) National Productivity Council</label></li>
+              </div>
+            </div>
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="two" id="answer"  disabled>
+                    <label for="answer">B) National Political Conference</label></li>
+              </div>
+            </div>
+
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="two" id="answer"  disabled>
+                    <label for="answer">C) National Philosophy Council</label></li>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="two" id="answer"  disabled>
+                    <label for="answer">D) National Productivity Committee</label></li>
+              </div>
+            </div>
+          <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="border-left-style:solid;border-left-color:#00E676;border-left-size:2px;margin-left:2%;margin-top:2%;background-color:#ECEFF1">
+            <p class="r-four">Your answer</p>
+            <p>Correct answer is b</p>
+          </div>
+      </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top:1%">
+            <p style="font-size:1.25em">5) NCERT stands for ____</p>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="two" id="answer"  disabled>
+                    <label for="answer">A) National Council of Educational Research and Training</label></li>
+              </div>
+            </div>
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="two" id="answer"  disabled>
+                    <label for="answer">B) National Council of Educational and Rural Training</label></li>
+              </div>
+            </div>
+
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="two" id="answer"  disabled>
+                    <label for="answer">C) National Council of Economic Research and Training</label></li>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><input type="radio" name="two" id="answer"  disabled>
+                    <label for="answer">D) None of the Above</label></li>
+              </div>
+            </div>
+          <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="border-left-style:solid;border-left-color:#00E676;border-left-size:2px;margin-left:2%;margin-top:2%;background-color:#ECEFF1">
+            <p class="r-five">Your answer</p>
+            <p>Correct answer is a</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"></div>
+        </div>
+    </div>
+    </div>
+    </section>
+    <!--end of section three-->
+    </div> 
+  </div>  
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script src="http://cdn.jsdelivr.net/jquery.validation/1.15.0/jquery.validate.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/jquery.validation/1.15.0/additional-methods.min.js"></script>
+</body>
+</html>
