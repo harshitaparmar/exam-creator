@@ -67,8 +67,11 @@ $(".fourth-previous").click(function(){
 	$(".question-row-5").hide();
 });
 $(".fifth-next").click(function(){
+	 var r=confirm("Are you sure want to submit");
+    if(r==true)
+    {
 	$(".question-row-5").hide();
-	$(".answer-section").show();
+	$(".answer-section").show(500);
 	$(".heading-section").hide();
 	var count=0;
 	var one=$("input:radio[name='one']:checked").val();
@@ -134,8 +137,8 @@ $(".fifth-next").click(function(){
 	}
 	console.log(count);
 	console.log(marks);
-		$.getScript('http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js',function(){
-		$.getScript('http://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.0/morris.min.js',function(){
+		$.getScript('https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js',function(){
+		$.getScript('https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.0/morris.min.js',function(){
 	      
       		Morris.Bar({
          	element: 'bar-example',
@@ -150,5 +153,6 @@ $(".fifth-next").click(function(){
   
 });
 });
+}
 });	
 });
